@@ -1,11 +1,12 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>My First Web Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
-
 <body>
-
+    
     <!-- Headings tags -->
     <h1>Welcome to My Web Page</h1>
     <h2>Welcome to My Web Page</h2>
@@ -26,7 +27,7 @@
     <!-- Deleted Content and inserted Content -->
     <del>old content</del>
     <ins>new content</ins>
-
+    <mark>highlighted text</mark>
     <br><br>
     <hr>
 
@@ -34,6 +35,62 @@
     <abbr title="HyperText Markup Language">HTML</abbr><br>
     <abbr title="Cascading Style Sheets">CSS</abbr>
 
-</body>
+    <hr>
+    <!-- Preformatted text -->
+    <pre>
+        This is a preformatted text.
+        It preserves whitespace and line breaks.
+    </pre>
 
+    <!-- Progress tag -->
+    <progress value="70" max="100">70%</progress> <br>
+    <progress value="30" max="100">30%</progress> <br>
+    <progress value="90" max="100">90%</progress> <br>
+
+    <mark>Highlighted Text</mark>
+
+    <hr>
+    
+    <!--Subscript and Superscript tags-->
+    <h2>H<sub>2</sub>O</h2>
+    <h2>25<sup>th</sup>November</h2>
+
+    <br><br>
+
+    <hr><hr>
+
+    <!-- form tags -->
+     <fieldset>
+        <legend>Register Information</legend><br>
+     <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password"><br><br>
+
+        <label for="color">Choose Color:</label>
+        <input type="color" id="color" name="color"><br><br>
+
+        <label for="date">Choose Date:</label>
+        <input type="date" id="date" name="date"><br><br>
+
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+            <option value="india">India</option>
+            <option value="australia">Australia</option>
+        </select><br><br>  
+
+        <label for="check" id="check">I agree to the terms and conditions</label>
+        <input type="checkbox" id="check" name="check"><br><br>
+
+        <input type="submit" value="Submit">
+     </form>
+     </fieldset>
+</body>
 </html>
